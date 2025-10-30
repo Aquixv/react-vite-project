@@ -27,6 +27,7 @@ color: #262626;
 @media (max-width: 1024px) {
   .nav {
     margin: 30px 60px;
+    display: block;
   }
 
   .nav-logo {
@@ -45,37 +46,23 @@ color: #262626;
 
 
 @media (max-width: 768px) {
-  .nav {
-    margin: 20px 30px;
-  }
-
-  .nav-menu {
-    display: none; 
-    flex-direction: column;
-    background-color: #262626;
-    position: absolute;
-    top: 80px;
-    right: 30px;
-    width: 200px;
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .nav-menu.active {
-    display: flex;
+   .nav {
+    float: left;
+    display: block;
   }
 
   .nav-logo {
-    font-size: 28px;
+    font-size: 36px;
+    margin-left: -25px;
   }
 
-  .nav-toggle {
-    display: block;
-    cursor: pointer;
+  .nav-menu {
+    gap: 20px;
+    font-size: 16px;
+    margin-left: -25px;
   }
-}
 
-
-.nav-toggle {
-  display: none;
+  .nav-contact {
+    padding: 8px 28px;
+  }
 }
