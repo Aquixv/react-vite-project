@@ -19,6 +19,6 @@
   .background {
     object-fit: fill; 
       height: 100%;
-        width: fit-content;
+       width: 150vw;
   }
 }
