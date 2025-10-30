@@ -7,7 +7,7 @@
   object-fit: cover;
   z-index: -1;
 }
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .background {
     object-fit: fill; 
       height: 100%;
@@ -21,4 +21,4 @@
       height: 100%;
         width: fit-content;
   }
-} */
+}
